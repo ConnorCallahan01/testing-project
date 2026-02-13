@@ -1,2 +1,12 @@
 # testing-project
-Oliver project repository for 0d82d970-6ff1-47c0-87b0-91412dce8d8b
+
+Oliver project repository.
+
+## Folder Structure
+
+- `repository/workflow-analysis/`
+- `repository/business-case/`
+- `repository/ai-opportunity-assessment/`
+- `repository/functional-prototype/`
+- `repository/technical-specifications/`
+- `repository/meeting-notes/`
