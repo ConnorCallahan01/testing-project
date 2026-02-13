@@ -1,0 +1,31 @@
+# Regulatory Tracker - User Journey and Decision Points
+
+**Source**: repository/workflow-analysis/Regulatory Tracker - User Journey and Decision Points.md
+**Type**: Design Document
+**Upload Date**: 2026-02-13
+**Source SHA**: Not provided
+
+## Key Points
+
+- The Regulatory Tracker is an AI-powered application that automates detection, analysis, and workflow management of regulatory updates using Claude AI as a mock agentic backend
+- User journey spans seven phases: initial dashboard access, scan configuration, backend orchestration, results review, workflow management, knowledge store access, and documentation export
+- Backend scan execution follows a 7-stage pipeline: initializing, retrieving mock sources, detecting changes via keyword analysis, AI-powered analysis, confidence scoring, artifact generation, and finalization
+- Claude AI performs critical analysis tasks including relevance determination, impact level classification (Low/Medium/High/Critical), and confidence scoring (0.0-1.0), with items flagged for human review if confidence < 0.7
+- Workflow management enables progressive status transitions (Draft → In Review → Verified) with human verification required before items enter the knowledge store
+- System generates professional compliance documentation in both markdown and Word formats, with verified items searchable and exportable from the knowledge store
+
+## Entities and Topics
+
+- **Regulatory Tracker**: AI-powered application for monitoring and analyzing regulatory changes with automated workflow management
+- **ScanOrchestrator**: Backend component coordinating multi-stage scan pipeline with state management and error handling
+- **Claude API (claude-sonnet-4)**: LLM service performing regulatory document analysis and relevance assessment
+- **ChangeDetectionService**: Component detecting material changes through SHA-256 hashing and regulatory keyword identification
+- **ArtifactGenerator**: Document creation service producing markdown summaries and professional Word documents
+- **Mock Regulatory Sources**: FinCEN CDD Amendment, FinCEN SAR Advisory, OCC Transaction Monitoring Guidance, Federal Reserve AML Procedures
+- **Workflow States**: Draft, In Review, Verified statuses tracking compliance team approval
+- **Knowledge Store**: Searchable archive of verified regulatory items with export functionality
+- **Frontend Stack**: Next.js UI; **Backend Stack**: FastAPI, SQLite database
+
+## Relevance to Project
+
+This document provides comprehensive technical design documentation for understanding the complete user journey and decision points throughout the Regulatory Tracker system, from initial scan configuration through final document export. It serves as essential reference material for developers implementing the multi-stage backend orchestration pipeline, integrating AI analysis capabilities, and building user-facing workflow management interfaces.
