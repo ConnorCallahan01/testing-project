@@ -2,7 +2,7 @@
   "version": "1.0",
   "projectId": "0d82d970-6ff1-47c0-87b0-91412dce8d8b",
   "createdAt": "2026-02-13T19:45:22.031Z",
-  "updatedAt": "2026-02-13T19:46:41.668Z",
+  "updatedAt": "2026-02-13T19:59:11.279Z",
   "files": [
     {
       "id": "3fe27353-faa9-4bcf-aaba-99d01e5562c0",
@@ -15,8 +15,21 @@
       "createdAt": "2026-02-13T19:46:41.328Z",
       "updatedAt": "2026-02-13T19:46:41.328Z",
       "tags": []
+    },
+    {
+      "id": "oliver-write-80a6077f6ef1199c8c0a4d59d35656589d3ef5a5",
+      "name": "industry-regulatory-tracking-architectures.md",
+      "path": "repository/technical-specifications/industry-regulatory-tracking-architectures.md",
+      "folder": "technical-specifications",
+      "mimeType": "text/markdown",
+      "size": 37372,
+      "sha": "80a6077f6ef1199c8c0a4d59d35656589d3ef5a5",
+      "createdAt": "2026-02-13T19:59:11.279Z",
+      "updatedAt": "2026-02-13T19:59:11.279Z",
+      "tags": [],
+      "generatedByAgent": true
     }
   ],
   "externalLinks": [],
-  "storageUsed": 8684
+  "storageUsed": 46056
 }
